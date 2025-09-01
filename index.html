@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Minhoca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>🐛 Jogo da Minhoca</h1>
+        <div class="game-info">
+            <div class="score">Pontuação: <span id="score">0</span></div>
+            <div class="high-score">Recorde: <span id="highScore">0</span></div>
+        </div>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div class="controls">
+            <p>Use as setas do teclado para mover a minhoca</p>
+            <button id="startBtn">Iniciar Jogo</button>
+            <button id="pauseBtn">Pausar</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
